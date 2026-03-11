@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ransomware Detection</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<h2>Enter Executable File Features</h2>
+
+<form action="/result" method="post">
+
+<input type="number" name="Machine" placeholder="Machine" required>
+<input type="number" name="DebugSize" placeholder="Debug Size" required>
+<input type="number" name="DebugRVA" placeholder="Debug RVA" required>
+
+<input type="number" name="MajorImageVersion" placeholder="Major Image Version" required>
+<input type="number" name="MajorOSVersion" placeholder="Major OS Version" required>
+
+<input type="number" name="ExportRVA" placeholder="Export RVA" required>
+<input type="number" name="ExportSize" placeholder="Export Size" required>
+
+<input type="number" name="IatVRA" placeholder="IAT RVA" required>
+
+<input type="number" name="MajorLinkerVersion" placeholder="Major Linker Version" required>
+<input type="number" name="MinorLinkerVersion" placeholder="Minor Linker Version" required>
+
+<input type="number" name="NumberOfSections" placeholder="Number Of Sections" required>
+
+<input type="number" name="SizeOfStackReserve" placeholder="Stack Reserve Size" required>
+
+<input type="number" name="DllCharacteristics" placeholder="DLL Characteristics" required>
+
+<input type="number" name="ResourceSize" placeholder="Resource Size" required>
+
+<input type="number" name="BitcoinAddresses" placeholder="Bitcoin Addresses Count" required>
+
+<button type="submit">Detect</button>
+
+</form>
+
+</body>
+</html>

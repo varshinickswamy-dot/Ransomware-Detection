@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right,#0f2027,#203a43,#2c5364);
+    color:white;
+    text-align:center;
+}
+
+.hero{
+    margin-top:120px;
+}
+
+form{
+    display:grid;
+    grid-template-columns: repeat(3, 260px);
+    justify-content:center;
+    gap:15px;
+}
+
+input{
+    padding:10px;
+    border-radius:5px;
+    border:none;
+}
+
+button,a{
+    grid-column: span 3;
+    padding:12px;
+    background:#00c6ff;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    cursor:pointer;
+    text-decoration:none;
+    color:black;
+}
